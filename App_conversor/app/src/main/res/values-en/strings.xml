@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Temperature Converter</string>
+    <string name="temperature">Temperature:</string>
+    <string name="hint_temperature">Enter the temperature</string>
+    <string name="celsius">Celsius</string>
+    <string name="fahrenheit">Fahrenheit</string>
+    <string name="kelvin">Kelvin</string>
+    <string name="msgCtoF">Conversion from Celsius to Fahrenheit performed.</string>
+    <string name="msgFtoC">Conversion from Fahrenheit to Celsius performed.</string>
+    <string name="msgKtoC">Conversion from Kelvin to Celsius performed.</string>
+    <string name="msgCtoK">Conversion from Celsius to Kelvin performed.</string>
+    <string name="msgFtoK">Conversion from Fahrenheit to Kelvin performed.</string>
+    <string name="msgKtoF">Conversion from Kelvin to Fahrenheit performed.</string>
+    <string name="error_popup_notify">Unable to convert temperature with the provided data.</string>
+    <string name="error_sameConverter">Cannot convert from one temperature unit to itself.</string>
+    <string name="error_nothing_on_spinner">Please select the temperature unit the value represents.</string>
+
+    <string-array name="temperatures_to_spinner">
+        <item>Celsius</item>
+        <item>Fahrenheit</item>
+        <item>Kelvin</item>
+    </string-array>
+</resources>
